@@ -4,6 +4,7 @@ namespace App\Handlers;
 
 use  Illuminate\Support\Str;
 
+//头像上传
 class ImageUploadHandler
 {
     // 只允许以下后缀名的图片文件上传
