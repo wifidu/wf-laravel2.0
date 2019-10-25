@@ -27,10 +27,10 @@
             {{ Auth::user()->name }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="">个人中心</a>
-            <a class="dropdown-item" href="">编辑资料</a>
+            <a class="dropdown-item" href="{{ route('users.show', Auth::id()) }}">个人中心</a>
+            <a class="dropdown-item" href="{{ route('users.edit', Auth::id()) }}">编辑资料</a>
             <div class="dropdown-driver"></div>
-            <a class="dropdown-item" href="#" id="logout">
+            <a class="dropdown-item" href="{{ route('logout') }}" id="logout">
               <form action="{{ route('logout') }}" method="POST">
               {{ csrf_field() }}
               <button class="btn btn-block btn-danger" type="submit" name="button">退出</button>
