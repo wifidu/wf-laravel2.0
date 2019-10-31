@@ -44,5 +44,9 @@ class UsersTableSeeder extends Seeder
         $user->password = bcrypt('duweifan');
         $user->save();
 
+        $user->assignRole('Founder');
+
+        $user = User::find(2);
+        $user->assignRole('Maintainer');
     }
 }
