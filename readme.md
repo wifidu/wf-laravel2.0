@@ -35,7 +35,7 @@ First |Second
 
 ---------------
 
-![picture alt](5d9d86b8cab22.jpg)
+![picture alt](https://github.com/wifidu/wf-laravel2.0/blob/master/5d9d86b8cab22.jpg)
 
 <kbd>⌘F</kbd>
 <kbd>⇧</kbd>
