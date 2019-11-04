@@ -35,7 +35,7 @@ First |Second
 
 ---------------
 
-![picture alt](/home/du/图片/5d9d86b8cab22.jpg)
+![picture alt](5d9d86b8cab22.jpg)
 
 <kbd>⌘F</kbd>
 <kbd>⇧</kbd>
